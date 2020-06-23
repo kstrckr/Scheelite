@@ -25,8 +25,21 @@
   position: absolute;
   height: 54px;
   width: 90px;
+}
+
+.both_border {
   border-left: 3px solid orange;
   border-right: 3px solid orange;
+}
+
+.right_border {
+  border-left: 3px solid rgba(255, 255, 255, 0);
+  border-right: 3px solid orange;
+}
+
+.left_border {
+  border-left: 3px solid orange;
+  border-right: 3px solid rgba(255, 255, 255, 0);
 }
 
 .no_border {
