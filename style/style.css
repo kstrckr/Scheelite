@@ -1,0 +1,45 @@
+
+#hex_board {
+  display: flex;
+  flex-direction: column;
+  margin: 75px;
+}
+
+.hex_row {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+
+.hex_row:nth-child(even) {
+  /* margin-top: 80px; */
+  margin-left: 46px;
+}
+
+.hex_container {
+  /* position: relative; */
+  width: 93px;
+}
+
+.rectangle {
+  position: absolute;
+  height: 54px;
+  width: 90px;
+  border-left: 3px solid orange;
+  border-right: 3px solid orange;
+}
+
+.no_border {
+  position: absolute;
+  height: 54px;
+  width: 90px;
+}
+
+.rectangle_1 {
+  transform: rotate(60deg);
+}
+
+.rectangle_2 {
+  transform: rotate(-60deg);
+}
+
