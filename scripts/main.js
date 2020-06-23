@@ -13,8 +13,9 @@ for (let i = 0; i < 10; i++) {
     hex.title = `x: ${j}, y: ${i}`;
     for (let k = 0; k < 3; k++) {
       const baseRectangle = document.createElement('div');
-      const random = Math.floor(Math.random() * 10)
-      const threshold = 5;
+      const random = Math.floor(Math.random() * 10);
+      // const threshold = 6;
+      const threshold = Math.floor(Math.random() * 3) + 4;
       switch (k) {
         case 0:
           baseRectangle.className = random > threshold ? 'rectangle both_border' : 'rectangle';
