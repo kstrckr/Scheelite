@@ -1,8 +1,13 @@
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 #hex_board {
   display: flex;
   flex-direction: column;
-  margin: 75px;
+  margin-top: 75px;
 }
 
 .hex_row {
